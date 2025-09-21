@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  opacity: 0.98;
+}
+body{
+  background-image: url(pexels-pixabay-267202.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {  
+  background: #2409eb;
+  color: rgb(16, 2, 2);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  color : yellow;
+  font-style:italic;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border: 5px yellowgreen solid;
+  width: 200px;
+  text-align: center;
+}
+.product-card :hover
+{
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-color:green;
+}
+
+.contact-form {
+  display:flex;
+  flex-direction: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  color:yellow;
+}
+
+footer {
+  background: #222;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+#contact-page {
+  background: #111;
+  color: white;
+}
+.product-image {
+  width: 80%;
+  height: 50%;
+}
