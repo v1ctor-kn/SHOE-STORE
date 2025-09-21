@@ -1,4 +1,5 @@
 ﻿# SHOE-STORE
+ live link=https://v1ctor-kn.github.io/SHOE-STORE/
 # 👟 SoleMate Shoe Store
 
 **SoleMate** is a student-focused, multipage shoe store website built with HTML, CSS, and JavaScript. Designed to serve university students with affordable, stylish footwear, this project combines clean design, responsive layout, and scalable architecture—ready for future integration with payment gateways and inventory systems.
@@ -60,3 +61,4 @@ To run the project locally:
    ```bash
    git clone https://github.com/v1ctor-kn/SHOE-STORE.git
    cd SHOE-STORE
+
